@@ -19,8 +19,9 @@ public class HelloController {
     }
 
     @GetMapping
-    public String getMessage() {
-        return "Message:" + properties.getMessage();
+    public String getMessage(Model model) {
+        model.addAttribute("Message", "Message:" + properties.getMessage());
+        return "index";
     }
 
     @GetMapping("/welcome")
