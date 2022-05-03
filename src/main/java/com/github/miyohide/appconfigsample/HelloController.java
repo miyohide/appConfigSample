@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @ConfigurationProperties("controller")
 public class HelloController {
     private final MessageProperties properties;
-    private FeatureManager featureManager;
+    private final FeatureManager featureManager;
 
     public HelloController(MessageProperties properties, FeatureManager featureManager) {
         this.properties = properties;
