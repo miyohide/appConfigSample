@@ -17,6 +17,7 @@ dependencies {
     implementation 'com.azure.spring:azure-spring-cloud-appconfiguration-config:2.6.0'
     implementation 'com.azure.spring:azure-spring-cloud-feature-management-web:2.5.0'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'com.azure.spring:azure-spring-cloud-appconfiguration-config-web:2.6.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
